@@ -1,0 +1,54 @@
+{
+    "$schema": "http://json-schema.org/draft-07/schema",
+    "$id": "http://example.com/example.json",
+    "type": "object",
+    "default": {},
+    "examples": [
+        {
+            "username": "adminUser2",
+            "password": "12345678",
+            "firstName": "Imran",
+            "lastName": "test",
+            "email": "test@email.com",
+            "phone": "000-000-0000"
+        }
+    ],
+    "required": [],
+    "properties": {
+        "username": {
+            "type": "string",
+            "minLength": 6,
+            "maxLength": 20
+        },
+        "password": {
+            "type": "string",
+            "minLength": 8,
+            "maxLength": 20
+        },
+        "firstName": {
+            "type": "string",
+            "minLength": 1,
+            "maxLength": 35
+        },
+        "lastName": {
+            "type": "string",
+            "minLength": 1,
+            "maxLength": 35
+        },
+        "email": {
+
+            "type": "string",
+            "title": "The email schema",
+            "format": "email",
+            "minLength": 5,
+            "maxLength": 35           
+        },
+        "phone": {
+            "type": "string",
+            "minLength": 5,
+            "maxLength": 35   
+
+        }
+    },
+    "additionalProperties": false
+}
