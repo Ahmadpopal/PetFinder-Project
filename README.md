@@ -30,15 +30,15 @@
     
  # Features 
     
-    SQL Data base is used for this web application, where users can regiester, login and updated their profile 
-    later if they want to. 
+    SQL Data base is used for this web application, where users can regiester, login and updated 
+    their profile later if they want to. 
     
-    i choose to focus on using a little bit of everything for this full stack project Database, API, routing, 
-    testing designing etc... 
+    i choose to focus on using a little bit of everything for this full stack project Database, 
+    API, routing, testing designing etc... 
     
-    Looking forward I would love to revisit pet adoption project and add featuers, such as user favorites where
-    users can save their pet options in the database and can revisit them latter, sharing where users can share
-    the pet details with families and freinds before they adopt them. 
+    Looking forward I would love to revisit pet adoption project and add featuers, such as user 
+    favorites where users can save their pet options in the database and can revisit them latter, 
+    sharing where users can share the pet details with families and freinds before they adopt them. 
     
   
    # Data
